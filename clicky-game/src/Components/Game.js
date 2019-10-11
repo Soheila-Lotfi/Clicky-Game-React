@@ -23,7 +23,14 @@ const styles={
             updateImages :Images
             };
 
-        
+            handleClickImage= () => {
+
+                this.setState({score:this.state.score+1})
+                this.setState({guessed:"You guessed Correctly!"})
+
+                if((this.state.score) >= (this.state.topScore)){
+                    this.setState({topScore:this.state.topScore+1}) 
+                }
               
 
             };
