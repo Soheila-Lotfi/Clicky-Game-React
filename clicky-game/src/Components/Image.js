@@ -24,7 +24,7 @@ function Image(props) {
 
 
     return (
-           
+            <img style={styles.img} alt="zootopia-characters" data-id={props.clicked} src={props.src} onClick={() => props.handleClickImage()}/>
          
     )
 
