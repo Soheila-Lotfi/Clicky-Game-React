@@ -1,0 +1,11 @@
+[{
+ "id":1,
+ "src": "../../zootopia/image1.jpg",
+"clicked" :"false"
+},{
+
+    "id":2,
+    "src": "../../zootopia/image2.jpg",
+    "clicked" :"false"
+
+}]
