@@ -49,6 +49,17 @@ background: "yellow"
             else if(this.state.copyImages[id-1].clicked === "true"){
                 this.setState({score:0})
                 this.setState({guessed:"You guessed InCorrectly!"})
+
+                var updateImages  = this.state.copyImages.map(updateimage =>{
+                    
+                        updateimage.clicked="false"
+                    
+                    return updateimage;
+                    })
+        
+                    this.setState ({
+                    copyImages : updateImages
+                    })
             }
 
         };
