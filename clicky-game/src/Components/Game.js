@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import Image from "./Image";
+import Footer from "./Footer";
 import Images from "../images.json";
 
 const styles={
 container:{
-maxWidth: "960px",
 
+maxWidth: "960px",
 margin:"auto",
 height:"800px",
 marginTop:"100px"
@@ -104,6 +105,7 @@ marginTop:"100px"
                         />
                     ))}
                 </div>
+                <Footer/>
             </>
             );
     }
