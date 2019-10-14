@@ -17,6 +17,8 @@ Clicky is a memory game with React.
 
 5. Once the user's score is reset after an incorrect guess, the game should restart.
 
-- - -
+- - 
+6 To run the app  type npm start in the terminal
 
+![image](https://user-images.githubusercontent.com/49765334/66724719-6cd34180-edf7-11e9-9b53-18ccc1154ef6.png)
 
