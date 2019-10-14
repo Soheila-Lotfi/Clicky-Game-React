@@ -11,7 +11,8 @@ const styles={
     "font-weight": 600,
     height:"40px",
     color: "white",
-    fontFamily:"sans-serif"
+    fontFamily:"sans-serif",
+    fontWeight: "bold"
    }
 
 
