@@ -41,28 +41,26 @@ const styles = {
         fontSize:"4em"
     },
     h2:{
-
-fontSize:"1.5em"
+    fontSize:"1.5em"
     }
 }; 
 
 function Header(props) {
 
     return (
- <>
+        <>
             <div style={styles.stickyheader}>
                <ul style={styles.ul}>
                 <li style={styles.li}><a  style={styles.clicky}href="/"><strong>Clicky Game</strong></a></li>
                 <li style={styles.li}>{props.guessed}</li>
                 <li style={styles.li}>Score :{props.score} | Top Score: {props.topScore}</li>
                </ul>
-
             </div>
             <div style={styles.clickygame} >
                 <h1 style={styles.h1}>Clicky Game!</h1>
                 <h2 >click on an image to earn points, but don't click on any more than once!</h2>
             </div>
-</>
+        </>
              
     );
 

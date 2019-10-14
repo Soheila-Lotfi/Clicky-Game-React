@@ -2,7 +2,6 @@ import React from "react";
 
 const styles={
    footer:{
-    
     bottom: 0,
     left: 0,
     right: 0,
@@ -14,23 +13,17 @@ const styles={
     fontFamily:"sans-serif",
     fontWeight: "bold"
    }
-
-
- 
-  
-}
+};
 function Footer() {
 
     return (
- <>
-
-            <div style={styles.footer}>
-              clicky Game / React
-            </div>
-</>
-             
+            <>
+                <div style={styles.footer}>
+                clicky Game / React
+                </div>
+            </>          
     );
 
-}
+};
 
 export default Footer;                        
