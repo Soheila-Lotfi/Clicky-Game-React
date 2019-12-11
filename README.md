@@ -2,7 +2,7 @@
 
 ## Overview
 
-Clicky is a memory game with React.  view page at: https://soheila-lotfi.github.io/Clicky-Game-React/.
+Clicky is a memory game with React.  view website at: https://clicky-game-zootopia.herokuapp.com/.
 
 ### Instructions
 
